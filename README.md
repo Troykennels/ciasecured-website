@@ -1,5 +1,7 @@
 # CIASecured website — UX/UI concept 01
 
+[Open the website preview](https://troykennels.github.io/ciasecured-website/)
+
 A separate, responsive public website prototype for CIASecured, a security,
 privacy and compliance implementation consultancy. The live application is
 linked through Client portal and remains separate.
