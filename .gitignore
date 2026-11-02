@@ -1,0 +1,6 @@
+verification/
+*.log
+.env
+.env.*
+*.private.*
+__pycache__/

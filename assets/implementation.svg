@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 570" fill="none">
+ <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#588276" stroke-opacity=".28"/></pattern></defs>
+ <path fill="#123E37" d="M0 0h560v570H0z"/><path fill="url(#grid)" d="M0 0h560v570H0z"/>
+ <g stroke="#91B1A1" stroke-width="1"><path d="M44 132h472M44 440h472M82 88v396M478 88v396" stroke-dasharray="4 5"/><path d="m280 148 181 104v209L280 565 99 461V252Z" opacity=".25"/></g>
+ <path d="m68 340 212-122 212 122-212 123Z" fill="#245C4A" stroke="#7FA38E"/>
+ <path d="m68 340 212 123v27L68 367Z" fill="#11362F" stroke="#7FA38E"/><path d="m280 463 212-123v27L280 490Z" fill="#1B4C3E" stroke="#7FA38E"/>
+ <path d="m137 300 68-39v-99l-68 39Z" fill="#58997B"/><path d="m205 162 67 39v99l-67-39Z" fill="#2D6A50"/><path d="m137 201 68-39 67 39-67 39Z" fill="#A7C1A1"/>
+ <path d="m219 348 68-39V170l-68 39Z" fill="#92B68D"/><path d="m287 170 67 39v139l-67-39Z" fill="#488569"/><path d="m219 209 68-39 67 39-67 39Z" fill="#D8EB9B"/>
+ <path d="m301 396 68-39V118l-68 39Z" fill="#C5DCA0"/><path d="m369 118 67 39v239l-67-39Z" fill="#75A77F"/><path d="m301 157 68-39 67 39-67 39Z" fill="#E9F2CC"/>
+ <g stroke="#123E37" stroke-opacity=".25"><path d="m319 173 49 28v184M336 183v184M353 193v184M384 148v222M402 159v222M419 169v222"/><path d="m235 226 51 29v80M252 236v80M269 246v80M304 234v87M321 244v87M338 254v87"/><path d="m153 218 51 29v38M170 228v38M187 238v38"/></g>
+ <path d="m100 360 83 48 62-36 40 23 109-63" stroke="#E9F2CC" stroke-width="3"/><path d="m383 328 15 1-5 15" stroke="#E9F2CC" stroke-width="3"/>
+ <rect x="31" y="29" width="41" height="41" rx="20.5" fill="#D8EB9B"/><path d="m43 50 7 7 13-15" stroke="#123E37" stroke-width="2.5" stroke-linecap="round"/>
+ <g fill="#F7F7F2" font-family="Arial,sans-serif"><text x="84" y="47" font-size="10" letter-spacing="1.8">BUILT ON CLEAR FOUNDATIONS</text><text x="84" y="63" font-size="12" fill="#B9D0C2">People. Process. Systems.</text></g>
+ <g stroke="#91B1A1"><path d="M38 503h484"/><circle cx="49" cy="529" r="3" fill="#D8EB9B" stroke="none"/></g>
+ <g fill="#DAE5D8" font-family="Arial,sans-serif" font-size="11"><text x="62" y="533">From a clear scope to work that stands up.</text><text x="481" y="533" fill="#D8EB9B">01 / 04</text></g>
+</svg>
