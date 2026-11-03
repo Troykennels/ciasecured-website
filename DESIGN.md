@@ -30,3 +30,8 @@ remains fixed on every page. Screenshots expand with a full-size image link.
 
 All assets are locally hosted. The existing GitHub Pages project is retained.
 The live app is separate. Screenshot and photo provenance are recorded in assets/.
+
+The homepage now uses a full-width blue-lit technology photograph, without the
+UK/international eyebrow or its dot. Technology photography also appears behind
+product cards, supporting page banners, pricing/partnership sections and closing
+invitations. Overlays keep text readable and distinct from the imagery.
