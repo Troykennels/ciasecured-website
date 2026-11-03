@@ -1,4 +1,4 @@
-# Website concept 01
+# Company website design
 
 ## Intent
 
@@ -22,8 +22,8 @@ and how to begin a conversation. Existing clients can open the actual portal.
 ## Structure
 
 1. Navigation: Services, Our approach, Standards, About, Client portal.
-2. Hero: the implementation promise, a project conversation and a delivery
-   process illustration. No invented customer endorsements.
+2. Hero: the implementation offer and a project conversation over a real
+   technology photograph with a dark overlay. No invented customer endorsements.
 3. Positioning: practical work, clearly owned, documented and handed over.
 4. Services: governance, implementation, privacy, and assurance preparation.
 5. Standards: interactive service scopes for ISO 27001, SOC 2 readiness,
@@ -45,6 +45,21 @@ Final business contact details and enquiry delivery are for the next phase.
 
 ## Review boundaries
 
-This is the requested first UX/UI design, not a replacement for the live
+This is the public company website preview, not a replacement for the live
 CIASecured application. No authentication, backend or customer-data changes.
 No AI symbols, sparkle motifs, robot art, AI badges or generator signatures.
+
+## Page build, 3 November 2026
+
+The homepage and nine supporting pages now form the public website preview:
+Services; Governance & risk; Security implementation; Privacy programmes;
+Assurance preparation; Our approach; Standards; About us; Contact.
+
+The three-word dotted strapline has been removed. Headlines use descriptive
+wording without slogan-like full stops. Real technology photographs replace
+the main abstract illustration and sit behind the handover and page banners.
+Source and licence records accompany the locally hosted image files.
+
+On small phones, service cards use a single column so full service names and
+descriptions remain readable. Separate pages have breadcrumbs, unique titles,
+one H1, related services and a route to the project enquiry.
