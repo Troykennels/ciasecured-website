@@ -40,12 +40,25 @@ invitations. Overlays keep text readable and distinct from the imagery.
 Hypersence (https://hypersence.com.ng/) was reviewed in a real browser as a
 reference for a large, full-width photographic slideshow. CIASecured uses its
 own three scenes: compliance review, implementation and review preparation.
-The slideshow advances every eight seconds and has previous/next controls,
-slide selectors, pause/play, keyboard navigation and swipe gestures. It pauses
-for interaction and when out of view. Reduced motion starts with autoplay off.
+The slideshow advances every ten seconds when the pointer is away. It pauses
+on hover, keyboard focus, hidden tabs and when out of view. There are no visible
+arrow or pause/play controls. Slide selectors, keyboard navigation and swipe
+remain available. Reduced motion disables automatic rotation.
 
 Headings use Source Serif 4; body text uses Source Sans 3. These replace Inter
 throughout the public site. Fonts are locally hosted with OFL licence records.
 Copy is written around practical client questions and the work people need to
 do, with repeated slogan-like phrasing replaced by straightforward descriptions.
 Illustrative stock photos do not identify the pictured people as staff or clients.
+
+## Consistency and page review
+refinements.css defines one relative type scale for headings, body text, labels,
+links, captions and form controls. Source Serif 4 and Source Sans 3 remain the
+site fonts. Website arrows are removed; original app screenshots remain authentic.
+
+Search, framework filters and context-aware enquiry links help people find the
+next step. Filters are restored from the URL on reload. Search runs locally.
+Enquiry review offers email, WhatsApp and clipboard choices with no false sending
+confirmation. Service outputs, related framework pages and practical questions
+provide more useful page content. Website information and a working custom 404
+complete the public routes. All requested changes retain the existing GitHub URL.

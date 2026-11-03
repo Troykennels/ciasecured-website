@@ -1,0 +1,197 @@
+[
+  {
+    "title": "Practical implementation with clear accountability",
+    "description": "UK-based implementation support for organisations working internationally.",
+    "url": "about.html"
+  },
+  {
+    "title": "Assurance preparation",
+    "description": "Organise implementation records and outstanding actions for an informed review and handover.",
+    "url": "assurance-preparation.html"
+  },
+  {
+    "title": "From the agreed scope to a reviewable implementation record",
+    "description": "Bring assessment criteria, responsibilities, implementation work and supporting evidence into a connected delivery process.",
+    "url": "audit-compliance.html"
+  },
+  {
+    "title": "Let’s discuss your next project",
+    "description": "Contact CIASecured by email or WhatsApp, or prepare a project enquiry.",
+    "url": "contact.html"
+  },
+  {
+    "title": "CCPA implementation support",
+    "description": "California Consumer Privacy Act support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-ccpa.html"
+  },
+  {
+    "title": "CIS Controls implementation support",
+    "description": "CIS Critical Security Controls support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-cis-v8.html"
+  },
+  {
+    "title": "India DPDPA implementation support",
+    "description": "Digital Personal Data Protection Act support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-dpdpa.html"
+  },
+  {
+    "title": "GDPR implementation support",
+    "description": "General Data Protection Regulation support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-gdpr.html"
+  },
+  {
+    "title": "HIPAA implementation support",
+    "description": "Health Insurance Portability and Accountability Act support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-hipaa.html"
+  },
+  {
+    "title": "NDPR implementation support",
+    "description": "Nigeria Data Protection Regulation support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-ndpr.html"
+  },
+  {
+    "title": "PCI DSS implementation support",
+    "description": "Payment Card Industry Data Security Standard support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-pcidss.html"
+  },
+  {
+    "title": "POPIA implementation support",
+    "description": "Protection of Personal Information Act support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-popia.html"
+  },
+  {
+    "title": "SAMA CSF implementation support",
+    "description": "SAMA Cyber Security Framework support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-sama-csf.html"
+  },
+  {
+    "title": "SOC 2 implementation support",
+    "description": "SOC 2 — Service Organization Control 2 support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-soc2.html"
+  },
+  {
+    "title": "SOX ITGC implementation support",
+    "description": "Sarbanes-Oxley Act — IT General Controls support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-sox.html"
+  },
+  {
+    "title": "UAE PDPL implementation support",
+    "description": "UAE Personal Data Protection Law support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-uae-pdpl.html"
+  },
+  {
+    "title": "UK GDPR implementation support",
+    "description": "UK General Data Protection Regulation support with clearly stated app-library coverage.",
+    "url": "framework-checkpoint-uk-gdpr.html"
+  },
+  {
+    "title": "ISO 22301 implementation support",
+    "description": "ISO 22301 support with clearly stated app-library coverage.",
+    "url": "framework-iso22301-2019.html"
+  },
+  {
+    "title": "ISO/IEC 27001 implementation support",
+    "description": "ISO/IEC 27001 support with clearly stated app-library coverage.",
+    "url": "framework-iso27001-2022.html"
+  },
+  {
+    "title": "ISO/IEC 27701 implementation support",
+    "description": "ISO/IEC 27701 support with clearly stated app-library coverage.",
+    "url": "framework-iso27701-2025.html"
+  },
+  {
+    "title": "ISO/IEC 42001 implementation support",
+    "description": "ISO/IEC 42001 support with clearly stated app-library coverage.",
+    "url": "framework-iso42001-2023.html"
+  },
+  {
+    "title": "ISO 9001 implementation support",
+    "description": "ISO 9001 support with clearly stated app-library coverage.",
+    "url": "framework-iso9001-2026.html"
+  },
+  {
+    "title": "NIST CSF implementation support",
+    "description": "NIST CSF support with clearly stated app-library coverage.",
+    "url": "framework-nist-csf-2.html"
+  },
+  {
+    "title": "NIST SSDF implementation support",
+    "description": "NIST SSDF support with clearly stated app-library coverage.",
+    "url": "framework-nist-ssdf-1.1.html"
+  },
+  {
+    "title": "NIST SP 800-171 implementation support",
+    "description": "NIST SP 800-171 support with clearly stated app-library coverage.",
+    "url": "framework-nist800171-r3.html"
+  },
+  {
+    "title": "NIST SP 800-53 implementation support",
+    "description": "NIST SP 800-53 support with clearly stated app-library coverage.",
+    "url": "framework-nist80053-r5.html"
+  },
+  {
+    "title": "OWASP ASVS implementation support",
+    "description": "OWASP ASVS support with clearly stated app-library coverage.",
+    "url": "framework-owasp-asvs-5.html"
+  },
+  {
+    "title": "Governance & risk",
+    "description": "Establish the scope, risk priorities and accountable owners for the programme.",
+    "url": "governance-risk.html"
+  },
+  {
+    "title": "Get your compliance work moving",
+    "description": "UK-based security and compliance implementation, with international delivery, connected assessments and practical evidence.",
+    "url": "index.html"
+  },
+  {
+    "title": "From discovery to a usable handover",
+    "description": "CIASecured delivery from discovery and planning to implementation, review and handover.",
+    "url": "our-approach.html"
+  },
+  {
+    "title": "Let’s put our expertise together",
+    "description": "Explore service provider, technology and independent assurance collaborations with CIASecured.",
+    "url": "partnerships.html"
+  },
+  {
+    "title": "Tell us what you need help with",
+    "description": "Discuss scope and request a tailored CIASecured implementation proposal.",
+    "url": "pricing.html"
+  },
+  {
+    "title": "Privacy programmes",
+    "description": "Bring information-handling responsibilities into practical policies, procedures and review arrangements.",
+    "url": "privacy-programmes.html"
+  },
+  {
+    "title": "Security implementation",
+    "description": "Connect security requirements to the controls, procedures and implementation work your organisation needs.",
+    "url": "security-implementation.html"
+  },
+  {
+    "title": "The right support for your programme",
+    "description": "Governance, security implementation, privacy programmes and assurance preparation.",
+    "url": "services.html"
+  },
+  {
+    "title": "Find the right starting point for your requirements",
+    "description": "Explore all 23 frameworks and regulatory areas represented in the CIASecured application.",
+    "url": "solutions.html"
+  },
+  {
+    "title": "Requirements in context",
+    "description": "Framework areas in the CIASecured application.",
+    "url": "standards.html"
+  },
+  {
+    "title": "Understand the suppliers behind your service",
+    "description": "Identify the third parties in scope and establish how supplier risks, due diligence and outstanding actions should be managed.",
+    "url": "third-party-risk-management.html"
+  },
+  {
+    "title": "How this website handles enquiries",
+    "description": "How this website handles enquiries",
+    "url": "website-information.html"
+  }
+]

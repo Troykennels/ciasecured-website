@@ -23,3 +23,12 @@ Existing GitHub Pages publication and the client portal address are retained.
 4. Write direct, practical copy and build an accessible full-width slideshow.
 5. Verify all layouts, manual navigation, autoplay, pause/play, swipe and reduced motion.
 6. Publish to the existing GitHub Pages project and verify the deployed version.
+
+## Site-wide review
+1. Review international service sites and primary typography/accessibility guidance.
+2. Apply one font scale and remove visible arrows and pause/play controls.
+3. Implement hover-to-stop and leave-to-resume, with keyboard and motion handling.
+4. Improve each page with useful outputs, next steps and related routes.
+5. Add local search, retained framework filters and contextual enquiry drafts.
+6. Verify every page, search, forms, links and the custom 404; publish and verify live.
+Use ordinary language in content, labels, empty states and error messages.
