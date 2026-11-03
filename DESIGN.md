@@ -62,3 +62,6 @@ Enquiry review offers email, WhatsApp and clipboard choices with no false sendin
 confirmation. Service outputs, related framework pages and practical questions
 provide more useful page content. Website information and a working custom 404
 complete the public routes. All requested changes retain the existing GitHub URL.
+
+
+Decorative plus signs and divider rules are removed throughout the public website. Mobile navigation uses Menu and Close labels; spacing and coloured surfaces distinguish groups. Input boundaries and keyboard focus indicators remain visible.
