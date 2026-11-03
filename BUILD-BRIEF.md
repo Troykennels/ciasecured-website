@@ -23,12 +23,13 @@ certifications, office addresses, statistics or contact information.
 5. About: describe the UK base, international delivery and working principles,
    using only established company facts. No invented team biographies or offices.
 6. Contact: provide a clear enquiry journey and access to the existing client
-   portal. Retain honest preview status until a real delivery endpoint is supplied.
+   portal. Use the owner-provided email and WhatsApp details. Explain that the enquiry
+   opens an email draft which the visitor sends from their own email app.
 7. Verification and publication: check every page and local link, phone/tablet/
    desktop widths, navigation, keyboard access, forms and image loading. Publish
    to the existing GitHub Pages URL and verify the deployed revision.
 
 ## Scope
 The public website is separate from the existing client application.
-The enquiry preview must not imply that a message has been sent.
+The enquiry review must not imply that a message has been sent automatically.
 Photography must be stored locally with documented source and licence.

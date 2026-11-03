@@ -39,9 +39,10 @@ mobile navigation, responsive diagrams, reduced-motion support and native FAQ
 details. Framework selection updates its associated deliverables. Service
 details explain the work without pretending to be live customer projects.
 
-The enquiry dialog clearly says that it is a design preview. Submitting
-prepares a visible summary only; it does not send email or imply a real booking.
-Final business contact details and enquiry delivery are for the next phase.
+The enquiry flow prepares a visible summary and an encoded email draft addressed
+to the owner-provided email. It clearly says the visitor must send the draft
+from their own email app. Direct email and WhatsApp links are also provided.
+There is no background submission or server-side enquiry storage.
 
 ## Review boundaries
 

@@ -22,8 +22,10 @@ original to this prototype. No Mycroft assets or copy are reused.
 Open `index.html` or serve this folder with any static HTTP server. There is
 no build step or dependency installation. Navigation, individual service pages,
 framework tabs, FAQs, mobile menu and the enquiry preview are interactive.
-The enquiry is a prototype: no message is sent or stored remotely. No contact
-details, commercial claims or business certifications have been invented.
+The enquiry form prepares an email draft for the visitor to send from their
+own email app. Nothing is sent automatically or stored remotely. The public
+email and WhatsApp number were provided by the company owner. No commercial
+claims or business certifications have been invented.
 
 `DESIGN.md` records the page structure, palette and review notes. This folder
 contains only public design source; it must never contain application access
