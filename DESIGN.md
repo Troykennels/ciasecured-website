@@ -35,3 +35,17 @@ The homepage now uses a full-width blue-lit technology photograph, without the
 UK/international eyebrow or its dot. Technology photography also appears behind
 product cards, supporting page banners, pricing/partnership sections and closing
 invitations. Overlays keep text readable and distinct from the imagery.
+
+## Photographic homepage and editorial typography
+Hypersence (https://hypersence.com.ng/) was reviewed in a real browser as a
+reference for a large, full-width photographic slideshow. CIASecured uses its
+own three scenes: compliance review, implementation and review preparation.
+The slideshow advances every eight seconds and has previous/next controls,
+slide selectors, pause/play, keyboard navigation and swipe gestures. It pauses
+for interaction and when out of view. Reduced motion starts with autoplay off.
+
+Headings use Source Serif 4; body text uses Source Sans 3. These replace Inter
+throughout the public site. Fonts are locally hosted with OFL licence records.
+Copy is written around practical client questions and the work people need to
+do, with repeated slogan-like phrasing replaced by straightforward descriptions.
+Illustrative stock photos do not identify the pictured people as staff or clients.

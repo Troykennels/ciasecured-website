@@ -8,7 +8,8 @@ or package installation is needed.
 
 38 pages cover two product areas, 23 framework solutions, a searchable directory,
 partnerships, pricing, company information, services and project enquiries.
-Primary styles and interactions: redesign.css and interactions.js. Older style
+Primary styles and interactions: redesign.css, editorial.css, interactions.js
+and the homepage carousel.js. Older style
 and script files remain in source but are not loaded by the current pages.
 
 BUILD-BRIEF.md records the working prompts; DESIGN.md describes the design and
@@ -22,5 +23,5 @@ contacts supplied by the owner: famojuroadeyemi@gmail.com and WhatsApp
 
 Do not publish application databases, credentials or client records here.
 Screenshots use an isolated sample workspace, not real client data.
-Inter font licence: assets/INTER-LICENSE.txt. No third-party scripts or external
+Typography: locally hosted Source Serif 4 and Source Sans 3; see assets/FONT-CREDITS.md. No third-party scripts or external
 fonts are loaded.

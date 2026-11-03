@@ -15,3 +15,10 @@ landing-technology.jpg: panumas nikhomkhai, Light on Computer Hardware.
 Source: https://www.pexels.com/photo/light-on-computer-hardware-17489150/
 Licence: https://www.pexels.com/license/ (checked 3 November 2026).
 Illustrative stock photograph; does not represent CIASecured premises or imply endorsement.
+
+## Homepage slideshow
+- compliance-meeting.jpg: Mikhail Nilov, https://www.pexels.com/photo/professionals-looking-at-documents-8847204/
+- implementation-engineer.jpg: Christina Morillo, https://www.pexels.com/photo/software-engineer-using-laptop-1181341/
+- landing-technology.jpg: panumas nikhomkhai (source above).
+Pexels licence: https://www.pexels.com/license/ — checked 3 November 2026.
+Images illustrate the work; pictured people are not represented as CIASecured employees or clients.

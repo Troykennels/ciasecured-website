@@ -15,3 +15,11 @@ Screens show the real app interface with sample records, labelled accordingly.
 Framework library coverage is distinguished, with planned ISO/IEC 27090 unavailable.
 Enquiries open an email draft; they do not send automatically or claim submission.
 Existing GitHub Pages publication and the client portal address are retained.
+
+## Hypersence direction
+1. Review the actual Hypersence homepage in a browser, including its large slider.
+2. Select real photos of document review and technical implementation work.
+3. Use a complementary serif/sans font pair, hosted locally with licences.
+4. Write direct, practical copy and build an accessible full-width slideshow.
+5. Verify all layouts, manual navigation, autoplay, pause/play, swipe and reduced motion.
+6. Publish to the existing GitHub Pages project and verify the deployed version.
