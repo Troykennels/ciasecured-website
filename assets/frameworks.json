@@ -1,0 +1,232 @@
+[
+  {
+    "key": "iso27001-2022",
+    "name": "ISO/IEC 27001",
+    "edition": "ISO/IEC 27001:2022",
+    "family": "cyber",
+    "coverage": "clause-guidance",
+    "label": "ISO/IEC 27001",
+    "group": "Security",
+    "href": "framework-iso27001-2022.html"
+  },
+  {
+    "key": "checkpoint-ccpa",
+    "name": "California Consumer Privacy Act",
+    "edition": "California Consumer Privacy Act 2023",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "CCPA",
+    "group": "Privacy",
+    "href": "framework-checkpoint-ccpa.html"
+  },
+  {
+    "key": "checkpoint-cis-v8",
+    "name": "CIS Critical Security Controls",
+    "edition": "CIS Critical Security Controls v8",
+    "family": "cyber",
+    "coverage": "checkpoint",
+    "label": "CIS Controls",
+    "group": "Security",
+    "href": "framework-checkpoint-cis-v8.html"
+  },
+  {
+    "key": "checkpoint-dpdpa",
+    "name": "Digital Personal Data Protection Act",
+    "edition": "Digital Personal Data Protection Act 2023",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "India DPDPA",
+    "group": "Privacy",
+    "href": "framework-checkpoint-dpdpa.html"
+  },
+  {
+    "key": "checkpoint-gdpr",
+    "name": "General Data Protection Regulation",
+    "edition": "General Data Protection Regulation 2018",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "GDPR",
+    "group": "Privacy",
+    "href": "framework-checkpoint-gdpr.html"
+  },
+  {
+    "key": "checkpoint-hipaa",
+    "name": "Health Insurance Portability and Accountability Act",
+    "edition": "Health Insurance Portability and Accountability Act 1996+HITECH",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "HIPAA",
+    "group": "Privacy",
+    "href": "framework-checkpoint-hipaa.html"
+  },
+  {
+    "key": "checkpoint-ndpr",
+    "name": "Nigeria Data Protection Regulation",
+    "edition": "Nigeria Data Protection Regulation 2019",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "NDPR",
+    "group": "Privacy",
+    "href": "framework-checkpoint-ndpr.html"
+  },
+  {
+    "key": "checkpoint-pcidss",
+    "name": "Payment Card Industry Data Security Standard",
+    "edition": "Payment Card Industry Data Security Standard 4.0",
+    "family": "cyber",
+    "coverage": "checkpoint",
+    "label": "PCI DSS",
+    "group": "Security",
+    "href": "framework-checkpoint-pcidss.html"
+  },
+  {
+    "key": "checkpoint-popia",
+    "name": "Protection of Personal Information Act",
+    "edition": "Protection of Personal Information Act 2020",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "POPIA",
+    "group": "Privacy",
+    "href": "framework-checkpoint-popia.html"
+  },
+  {
+    "key": "checkpoint-sama-csf",
+    "name": "SAMA Cyber Security Framework",
+    "edition": "SAMA Cyber Security Framework 2017",
+    "family": "cyber",
+    "coverage": "checkpoint",
+    "label": "SAMA CSF",
+    "group": "Security",
+    "href": "framework-checkpoint-sama-csf.html"
+  },
+  {
+    "key": "checkpoint-soc2",
+    "name": "SOC 2 — Service Organization Control 2",
+    "edition": "SOC 2 — Service Organization Control 2 Type II",
+    "family": "cyber",
+    "coverage": "checkpoint",
+    "label": "SOC 2",
+    "group": "Security",
+    "href": "framework-checkpoint-soc2.html"
+  },
+  {
+    "key": "checkpoint-sox",
+    "name": "Sarbanes-Oxley Act — IT General Controls",
+    "edition": "Sarbanes-Oxley Act — IT General Controls 2002",
+    "family": "cyber",
+    "coverage": "checkpoint",
+    "label": "SOX ITGC",
+    "group": "Security",
+    "href": "framework-checkpoint-sox.html"
+  },
+  {
+    "key": "checkpoint-uae-pdpl",
+    "name": "UAE Personal Data Protection Law",
+    "edition": "UAE Personal Data Protection Law 2021",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "UAE PDPL",
+    "group": "Privacy",
+    "href": "framework-checkpoint-uae-pdpl.html"
+  },
+  {
+    "key": "checkpoint-uk-gdpr",
+    "name": "UK General Data Protection Regulation",
+    "edition": "UK General Data Protection Regulation 2021",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "UK GDPR",
+    "group": "Privacy",
+    "href": "framework-checkpoint-uk-gdpr.html"
+  },
+  {
+    "key": "iso22301-2019",
+    "name": "ISO 22301",
+    "edition": "ISO 22301:2019",
+    "family": "continuity",
+    "coverage": "clause-guidance",
+    "label": "ISO 22301",
+    "group": "Management systems",
+    "href": "framework-iso22301-2019.html"
+  },
+  {
+    "key": "iso27701-2025",
+    "name": "ISO/IEC 27701",
+    "edition": "ISO/IEC 27701:2025",
+    "family": "privacy",
+    "coverage": "checkpoint",
+    "label": "ISO/IEC 27701",
+    "group": "Privacy",
+    "href": "framework-iso27701-2025.html"
+  },
+  {
+    "key": "iso42001-2023",
+    "name": "ISO/IEC 42001",
+    "edition": "ISO/IEC 42001:2023",
+    "family": "ai",
+    "coverage": "clause-guidance",
+    "label": "ISO/IEC 42001",
+    "group": "Management systems",
+    "href": "framework-iso42001-2023.html"
+  },
+  {
+    "key": "iso9001-2026",
+    "name": "ISO 9001",
+    "edition": "ISO 9001:2026",
+    "family": "quality",
+    "coverage": "checkpoint",
+    "label": "ISO 9001",
+    "group": "Management systems",
+    "href": "framework-iso9001-2026.html"
+  },
+  {
+    "key": "nist-csf-2",
+    "name": "NIST CSF",
+    "edition": "NIST CSF 2.0",
+    "family": "cyber",
+    "coverage": "full-source",
+    "label": "NIST CSF",
+    "group": "Security",
+    "href": "framework-nist-csf-2.html"
+  },
+  {
+    "key": "nist-ssdf-1.1",
+    "name": "NIST SSDF",
+    "edition": "NIST SP 800-218 SSDF 1.1",
+    "family": "cyber",
+    "coverage": "full-source",
+    "label": "NIST SSDF",
+    "group": "Security",
+    "href": "framework-nist-ssdf-1.1.html"
+  },
+  {
+    "key": "nist800171-r3",
+    "name": "NIST SP 800-171",
+    "edition": "NIST SP 800-171 Rev. 3",
+    "family": "cyber",
+    "coverage": "full-source",
+    "label": "NIST SP 800-171",
+    "group": "Security",
+    "href": "framework-nist800171-r3.html"
+  },
+  {
+    "key": "nist80053-r5",
+    "name": "NIST SP 800-53",
+    "edition": "NIST SP 800-53 Rev. 5",
+    "family": "cyber",
+    "coverage": "full-source",
+    "label": "NIST SP 800-53",
+    "group": "Security",
+    "href": "framework-nist80053-r5.html"
+  },
+  {
+    "key": "owasp-asvs-5",
+    "name": "OWASP ASVS",
+    "edition": "OWASP ASVS 5.0.0",
+    "family": "cyber",
+    "coverage": "full-source",
+    "label": "OWASP ASVS",
+    "group": "Security",
+    "href": "framework-owasp-asvs-5.html"
+  }
+]

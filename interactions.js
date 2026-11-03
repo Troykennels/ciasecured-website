@@ -1,0 +1,40 @@
+'use strict';
+const $=s=>document.querySelector(s);
+const nav=$('#main-nav'),menu=$('.menu-toggle'),triggers=[...document.querySelectorAll('.nav-trigger')];
+function closeDropdowns(except){triggers.forEach(t=>{if(t!==except){t.setAttribute('aria-expanded','false');document.getElementById(t.getAttribute('aria-controls')).hidden=true}})}
+function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');closeDropdowns()}
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';nav.classList.toggle('open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');if(!open)closeDropdowns()});
+triggers.forEach(t=>{t.addEventListener('click',()=>{const open=t.getAttribute('aria-expanded')!=='true';closeDropdowns(t);t.setAttribute('aria-expanded',String(open));document.getElementById(t.getAttribute('aria-controls')).hidden=!open});t.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();closeDropdowns(t);t.setAttribute('aria-expanded','true');const panel=document.getElementById(t.getAttribute('aria-controls'));panel.hidden=false;panel.querySelector('a').focus()}})});
+document.addEventListener('click',e=>{if(!e.target.closest('.nav-shell'))closeMenu();else if(!e.target.closest('.nav-group'))closeDropdowns()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const open=triggers.find(t=>t.getAttribute('aria-expanded')==='true');if(open){closeDropdowns();open.focus()}else if(nav.classList.contains('open')){closeMenu();menu.focus()}}});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));window.addEventListener('resize',()=>{if(innerWidth>950)closeMenu()});
+const showcase={dashboard:'Delivery overview',implementation:'Implementation workspace',assessment:'Assessment workspace',frameworks:'Framework library'};
+const tabs=[...document.querySelectorAll('[data-showcase]')];
+function chooseScreen(tab){const key=tab.dataset.showcase,title=showcase[key],panel=$('#showcase-panel');tabs.forEach(t=>{const selected=t===tab;t.setAttribute('aria-selected',String(selected));t.tabIndex=selected?0:-1});panel.setAttribute('aria-labelledby',tab.id);const image=panel.querySelector('img');image.src='assets/app-'+key+'.jpg';image.alt='Actual CIASecured '+title.toLowerCase()+' interface with illustrative sample records';panel.querySelector('.frame-bar>span:nth-child(2)').textContent='CIASecured / '+title;const zoom=panel.querySelector('.screen-zoom');zoom.dataset.screen=image.getAttribute('src');zoom.dataset.title=title;zoom.setAttribute('aria-label','Enlarge '+title+' screenshot')}
+tabs.forEach((t,i)=>{t.addEventListener('click',()=>chooseScreen(t));t.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%tabs.length;if(e.key==='ArrowLeft')next=(i+tabs.length-1)%tabs.length;if(e.key==='Home')next=0;if(e.key==='End')next=tabs.length-1;if(next!==undefined){e.preventDefault();chooseScreen(tabs[next]);tabs[next].focus()}})});
+const dialog=$('#screen-dialog');let lastScreen;
+document.querySelectorAll('.screen-zoom').forEach(button=>button.addEventListener('click',()=>{lastScreen=button;$('#screen-dialog-title').textContent=button.dataset.title;$('#screen-dialog-image').src=button.dataset.screen;$('#screen-dialog-image').alt='Actual CIASecured '+button.dataset.title+' interface with sample records';$('#screen-full').href=button.dataset.screen;dialog.showModal();document.body.classList.add('dialog-open')}));
+$('.dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{document.body.classList.remove('dialog-open');lastScreen?.focus()});dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+const search=$('#framework-search'),filters=[...document.querySelectorAll('[data-filter]')];let group='All';
+function filterFrameworks(){const query=search.value.trim().toLowerCase();let count=0;document.querySelectorAll('.framework-card').forEach(card=>{const show=(group==='All'||card.dataset.group===group)&&card.dataset.search.includes(query);card.hidden=!show;if(show)count++});$('#framework-count').textContent=count+' framework'+(count===1?'':'s');$('#framework-empty').hidden=count>0}
+if(search){search.addEventListener('input',filterFrameworks);filters.forEach(b=>b.addEventListener('click',()=>{group=b.dataset.filter;filters.forEach(f=>f.setAttribute('aria-pressed',String(f===b)));filterFrameworks()}))}
+const form=$('.business-form');
+if(form){
+ const panel=form.closest('.form-panel'),review=panel.querySelector('.enquiry-review'),labels={first:'First name',last:'Last name',email:'Email',company:'Company name',partnership:'Partnership area',interest:'Engagement interest',info:'Company information'};
+ form.querySelectorAll('input,textarea').forEach(input=>input.addEventListener('input',()=>input.setCustomValidity('')));
+ form.addEventListener('submit',e=>{e.preventDefault();for(const name of ['first','last','company']){const input=form.elements.namedItem(name);if(!input.value.trim()){input.setCustomValidity('Please enter '+labels[name].toLowerCase()+'.');input.reportValidity();return}}
+ const data=new FormData(form),nodes=[],lines=[];
+ Object.entries(labels).forEach(([name,label])=>{const value=String(data.get(name)||'').trim();if(!value)return;const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;nodes.push(dt,dd);lines.push(label+': '+value)});
+ review.querySelector('dl').replaceChildren(...nodes);
+ const subject=form.dataset.kind==='partnership'?'CIASecured partnership enquiry':form.dataset.kind==='pricing'?'CIASecured pricing enquiry':'CIASecured project enquiry';
+ review.querySelector('.email-draft').href='mailto:famojuroadeyemi@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\r\n\r\n'));
+ form.hidden=true;review.hidden=false;review.focus()});
+ review.querySelector('.edit-enquiry').addEventListener('click',()=>{review.hidden=true;form.hidden=false;form.elements.namedItem('first').focus()});
+ function revealForm(){review.hidden=true;form.hidden=false}
+ document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>{revealForm();form.elements.namedItem('interest').value=b.dataset.plan;const note=form.querySelector('.selected-interest');note.textContent='Your interest: '+b.dataset.plan;note.hidden=false;panel.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});form.elements.namedItem('first').focus({preventScroll:true})}));
+ document.querySelectorAll('[data-partner]').forEach(b=>b.addEventListener('click',()=>{revealForm();form.elements.namedItem('partnership').value=b.dataset.partner;panel.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});form.elements.namedItem('first').focus({preventScroll:true})}));
+ const email=new URLSearchParams(location.hash.slice(1)).get('email');
+ if(email&&email.length<=160){form.elements.namedItem('email').value=email;history.replaceState(null,'',location.pathname+location.search+'#enquiry')}
+}
+const heroForm=$('.hero-enquiry');if(heroForm)heroForm.addEventListener('submit',e=>{e.preventDefault();const url=new URL('contact.html',location.href);url.hash='email='+encodeURIComponent($('#hero-email').value);location.assign(url.href)});
+

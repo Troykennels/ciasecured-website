@@ -1,66 +1,32 @@
-# Company website design
+# CIASecured company website
 
-## Intent
+Mycroft informs the navigation hierarchy, centred hero, product sections,
+framework discovery, pricing enquiry and partnership journey. CIASecured uses
+its own writing, branding, photos, app screens and implementation service scope.
+No third-party customers, testimonials, logos or capability claims are reused.
 
-Introduce CIASecured as an implementation company. Help a visitor understand
-what the consultancy does, how an engagement works, what handover looks like,
-and how to begin a conversation. Existing clients can open the actual portal.
+Navy and mint establish the hero. Warm white, sage, cool blue and lavender
+separate content sections. Technology photographs provide context; four actual
+app views explain the workflow. Inter is locally hosted.
 
-## Palette
+Product contains Audit & compliance and Third-party risk management. Solutions
+contains all 23 available framework areas, a searchable directory and individual
+pages. Coverage is distinguished: source catalogue, original guidance or limited
+checkpoints. Planned ISO/IEC 27090 is not offered as available. Library inclusion
+does not imply complete coverage, accreditation or certification.
 
-| Use | Colour |
-| --- | --- |
-| Deep ink | #122C32 |
-| Teal | #15796C |
-| Forest | #123E37 |
-| Lime accent | #D8EB9B |
-| Paper | #F7F7F2 |
-| Pale sage | #EAF0E7 |
-| Pale blue | #E8EFF1 |
-| Body copy | #526261 |
+Pricing follows the reference form structure: first name, last name, email,
+company name and optional company information. Partnerships adds an optional
+type. Engagement buttons preselect an interest. Forms validate, prepare a review
+and open an encoded draft to the supplied public email. Visitors send it from
+their own email app. Nothing is automatically sent or stored by this website.
 
-## Structure
+The hero passes the visitor email in a URL fragment, then removes the fragment
+after prefilling. It does not put the email in the server query string.
 
-1. Navigation: Services, Our approach, Standards, About, Client portal.
-2. Hero: the implementation offer and a project conversation over a real
-   technology photograph with a dark overlay. No invented customer endorsements.
-3. Positioning: practical work, clearly owned, documented and handed over.
-4. Services: governance, implementation, privacy, and assurance preparation.
-5. Standards: interactive service scopes for ISO 27001, SOC 2 readiness,
-   privacy and information-security governance. No certification guarantee.
-6. Approach: scope, plan, implement, verify and hand over.
-7. Working together: ownership, evidence and client visibility.
-8. FAQ, contact invitation and footer.
+Accessibility includes keyboard dropdowns and screenshot tabs, native modal focus,
+visible focus, reduced motion, labelled inputs and responsive navigation. WhatsApp
+remains fixed on every page. Screenshots expand with a full-size image link.
 
-## Interactions and accessibility
-
-Keyboard-accessible navigation and dialogs, visible focus, Escape to close,
-mobile navigation, responsive diagrams, reduced-motion support and native FAQ
-details. Framework selection updates its associated deliverables. Service
-details explain the work without pretending to be live customer projects.
-
-The enquiry flow prepares a visible summary and an encoded email draft addressed
-to the owner-provided email. It clearly says the visitor must send the draft
-from their own email app. Direct email and WhatsApp links are also provided.
-There is no background submission or server-side enquiry storage.
-
-## Review boundaries
-
-This is the public company website preview, not a replacement for the live
-CIASecured application. No authentication, backend or customer-data changes.
-No AI symbols, sparkle motifs, robot art, AI badges or generator signatures.
-
-## Page build, 3 November 2026
-
-The homepage and nine supporting pages now form the public website preview:
-Services; Governance & risk; Security implementation; Privacy programmes;
-Assurance preparation; Our approach; Standards; About us; Contact.
-
-The three-word dotted strapline has been removed. Headlines use descriptive
-wording without slogan-like full stops. Real technology photographs replace
-the main abstract illustration and sit behind the handover and page banners.
-Source and licence records accompany the locally hosted image files.
-
-On small phones, service cards use a single column so full service names and
-descriptions remain readable. Separate pages have breadcrumbs, unique titles,
-one H1, related services and a route to the project enquiry.
+All assets are locally hosted. The existing GitHub Pages project is retained.
+The live app is separate. Screenshot and photo provenance are recorded in assets/.
