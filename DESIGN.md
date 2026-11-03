@@ -64,4 +64,4 @@ provide more useful page content. Website information and a working custom 404
 complete the public routes. All requested changes retain the existing GitHub URL.
 
 
-Decorative plus signs and divider rules are removed throughout the public website. Mobile navigation uses Menu and Close labels; spacing and coloured surfaces distinguish groups. Input boundaries and keyboard focus indicators remain visible.
+Plus signs are removed throughout the public website. Mobile navigation uses Menu and Close labels. Structural lines remain on cards, menus, FAQ rows, process steps, screenshot frames and the footer; carousel rules indicate the active slide. Form boundaries, link underlines and keyboard focus indicators remain visible. Decorative background grid lines are omitted.
