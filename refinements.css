@@ -19,3 +19,16 @@ body #main-nav>a,body .nav-trigger,body #main-nav>.nav-cta{font-size:var(--type-
 body .hero-lines,body .mini-workflow>i{display:none}
 body .menu-toggle{width:auto;min-width:62px;font-size:1rem;font-weight:600;line-height:1.4}
 @media(max-width:1150px){body .menu-toggle{display:block;padding:12px}}
+
+/* Navy navigation with clear text and mint interaction states. */
+.site-header{background:#0b202e}
+.site-header .nav-shell{background:#163746;border-color:#34535e;color:#f3f7f5}
+.site-header .brand-symbol{background:#214b52;border-color:#608d83;color:#bcebd8}
+.site-header .brand small{color:#c5d8d4}
+.site-header #main-nav>a:not(.button):hover,.site-header .nav-trigger:hover,.site-header .nav-trigger[aria-expanded=true]{color:#bcebd8}
+.site-header .site-search-button{color:#f3f7f5;border-color:#718b92}
+.site-header .site-search-button:hover{background:#28515c}
+.site-header .mega{color:var(--ink)}
+.site-header :is(a,button):focus-visible{outline-color:#bcebd8}
+.site-header .mega :is(a,button):focus-visible{outline-color:#367f9a}
+@media(max-width:1150px){.site-header #main-nav{background:#163746;border-color:#34535e}}
