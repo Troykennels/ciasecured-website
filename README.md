@@ -1,6 +1,6 @@
 # CIASecured company website
 
-[Open the website](https://troykennels.github.io/ciasecured-website/)
+[Open the website](https://ciasecured-website.vercel.app/) (hosted on Vercel; the old GitHub Pages address redirects here)
 
 A standalone public company website, separate from the existing client app.
 Open index.html or serve the folder with any static HTTP server. No build step
